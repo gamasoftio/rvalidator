@@ -1,0 +1,13 @@
+{application, rvalidator,
+ [{description, "A library to validate Erlang's Record."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [rvalidator]},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
